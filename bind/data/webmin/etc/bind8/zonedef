@@ -1,0 +1,8 @@
+refresh=60
+minimum=38400
+retry=3600
+retunit=
+expunit=
+expiry=300
+refunit=
+minunit=

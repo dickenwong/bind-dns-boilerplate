@@ -1,0 +1,15 @@
+$ttl 300
+@	IN	SOA	ns.abc.dev. (
+			1467105923
+			60
+			3600
+			300
+			38400 )
+    IN  NS  ns.abc.dev.
+
+86  IN  PTR abc.dev.
+86	IN	PTR	dns.abc.dev.
+86	IN	PTR	www.abc.dev.
+86  IN  PTR api.abc.dev.
+86	IN	PTR	admin.abc.dev.
+86	IN	PTR	cs.abc.dev.

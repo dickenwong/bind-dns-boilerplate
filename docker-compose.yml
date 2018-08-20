@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  bind:
+    image: sameersbn/bind
+    ports:
+      - "53:53"
+      - "53:53/udp"
+    volumes:
+      - ./bind/data:/data
+    restart: always
